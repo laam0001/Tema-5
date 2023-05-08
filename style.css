@@ -1,0 +1,68 @@
+header, footer {
+    background-color: rgb(243, 202, 184);
+    padding:1%;
+    font-family: 'Noto Serif', serif;
+    font-size: 16px; 
+}
+
+@font-face {
+font-family: 'Noto Serif', serif;
+src: url(./NotoSerif-Regular.ttf);
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li a {
+    display: flex;
+}
+
+a:hover {color:  rgb(255, 255, 255)}
+a:link {color:rgb(255, 255, 255);}
+a:visited{color: rgb(241, 69, 69);}
+
+footer {
+    margin-top: 4%;
+}
+
+body{
+    background-color: rgb(243, 229, 217);
+}
+
+img{
+    max-width: 100%;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+h4, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
+    gap: 1em;
+}
